@@ -1,0 +1,2033 @@
+/*===========================
+    Navigation Menu
+==========================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+#mynav,
+.bg-white {
+    height: 76px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+    transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    padding: 10px 0;
+    background: #ffffff;
+}
+
+.bg-dark-1 {
+    height: 76px;
+    transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    padding: 10px 0;
+}
+
+#home-nav {
+    transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    padding: 10px 0;
+}
+
+#mynav a.navbar-brand img,
+#home-nav a.navbar-brand img {
+    width: 220px;
+    height: 35px;
+}
+
+#navbarmenu ul > li {
+    margin: 0 10px;
+    height: 40px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    vertical-align: middle;
+}
+
+#navbarmenu ul > li:last-child {
+    margin-right: 0;
+}
+
+#navbarmenu ul > li > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 18px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#navbarmenu ul > li.dropdown > a {
+    padding: 0;
+}
+
+.bg-dark-1 #navbarmenu ul > li > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#navbarmenu ul > li > a:hover {
+    background: none;
+    color: #6255a5;
+}
+
+#navbarmenu ul > li > a.active {
+    color: #6255a5;
+    background: none;
+    border-bottom: 3px solid #6255a5;
+}
+
+#navbarmenu ul > li > a > img {
+    height: 38px;
+    width: 38px;
+}
+
+#navbarmenu ul li a.btn-purple {
+    width: 89px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#navbarmenu ul li a.btn-white {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 10px 0;
+    color: #6255a5;
+}
+
+#navbarmenu ul li a#home-login-btn-white:hover {
+    width: 89px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    background: #6255a5;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#navbarmenu.show {
+    background: #fff;
+    margin-top: 20px;
+}
+
+#navbarmenu.show ul > li {
+    margin: 5px 10px;
+}
+
+#navbarmenu ul li.dropdown > div > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #333333;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+#navbarmenu ul li.dropdown > div > a#user-logout {
+    color: #6255a5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#navbarmenu ul li.dropdown > div > a:hover,
+#navbarmenu ul li.dropdown > div > a#user-logout:hover {
+    background: #6255a5;
+    color: #fff;
+}
+
+div.dropdown-menu > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #333333;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+div.dropdown-menu > a:hover {
+    background: #6255a5;
+    color: #fff;
+}
+
+/*===========================
+        Home Page
+==========================*/
+#homebanner {
+    position: relative;
+}
+
+#homebanner img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 520px;
+    max-height: 620px;
+}
+
+#img-overlay #overlay-content {
+    position: absolute;
+    top: 130px;
+    left: 190px;
+}
+
+#overlay-content h1 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+#overlay-content p {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* About Notesmarkwtplace */
+
+#about {
+    margin: 60px 0;
+}
+
+#about-description p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+}
+
+#about-description p:first-child {
+    margin-bottom: 30px;
+}
+
+/* Work */
+
+#work {
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+
+.horizontal-heading h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+    margin-bottom: 30px;
+}
+
+.workdiv {
+    text-align: center;
+}
+
+.workdiv .workdiv-img {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+}
+
+.workdiv h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+    margin-bottom: 20px;
+}
+
+.workdiv p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+}
+
+/*====================
+        Buttons
+=====================*/
+.btn-general {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-white {
+    background: #fff;
+    border-radius: 3px;
+    width: 89px;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.btn-purple {
+    background: #6255a5;
+    border-radius: 3px;
+}
+
+.btn-transparent {
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.btn-transparent:hover {
+    color: #fff;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#work-down-btn .btn-purple {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    width: 172px;
+}
+
+#work-sell-btn .btn-purple {
+
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    width: 172px;
+}
+
+/* Customers */
+
+#customer {
+    padding: 60px 0;
+}
+
+.customer-card {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    padding: 30px 20px 20px 30px;
+    margin: 15px 0;
+}
+
+#customer-3,
+#customer-4 {
+    margin-bottom: 0;
+}
+
+.customer-card .customer-img img {
+    width: 100px;
+    height: 100px;
+}
+
+.customer-info {
+    padding: 20px;
+}
+
+.customer-info .cutomer-name p {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #6255a5;
+}
+
+.customer-info .cutomer-desg p {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+.customer-text {
+    margin-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+
+}
+
+
+/*===========================
+        Search Page
+==========================*/
+/* Top Image */
+#search-top-img img {
+    width: 100%;
+    min-height: 200px;
+    max-height: 250px;
+    margin-top: 76px;
+}
+
+#search-top-img {
+    position: relative;
+}
+
+#search-top-content h2 {
+    position: absolute;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-200px) translateY(0px);
+    transform: translateX(-200px) translateY(0px);
+}
+
+
+/* Search and Filter notes */
+#search-filter-notes {
+    margin: 60px 0;
+}
+
+.search-notes-title h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+}
+
+#search-notes-bar {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-top: 20px;
+    height: 181px;
+}
+
+#search-notes-bar ::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8a8a8a;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+#search-notes-bar #searchbar-1 {
+    margin-bottom: 20px;
+}
+
+#search-notes-bar #searchbar-1 #searchby-notes-name {
+    background-image: url('../images/Dashboard/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 13px 14px;
+    padding-left: 40px;
+}
+
+/* this is for remove arrow of input box */
+#searchbar-2 div > select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+/* For IE10 */
+#searchbar-2 div > select::-ms-expand {
+    display: none;
+}
+
+#searchbar-2 div > select.form-control {
+    width: 167px;
+    margin-right: 9px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    /*    line-height: 20px;*/
+    color: #8a8a8a;
+    background-image: url('../images/Dashboard/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 135px 14px;
+    /*    padding-left: 40px;*/
+}
+
+/* Total Notes */
+.notes-card {
+    margin-top: 30px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+.notes-card .notes-card-img img {
+    width: 100%;
+}
+
+.notes-card .notes-card-content {
+    padding: 25px 10px 25px 25px;
+}
+
+.notes-card .notes-card-content h5 {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.notes-card .notes-card-content h5 > a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #6255a5;
+
+}
+
+.notes-card .notes-card-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.notes-card .notes-card-content .notes-card-content-details li {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.notes-card .notes-card-content .notes-card-content-details li i {
+    font-size: 20px;
+    width: 35px;
+}
+
+.notes-card .notes-card-content .notes-card-content-details li i.fa-flag {
+    font-size: 20px;
+    width: 35px;
+}
+
+.notes-card .notes-card-content .notes-card-content-details li span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666666;
+}
+
+.notes-card .notes-card-content .notes-card-content-details li span#flag-review {
+    color: #df3434;
+}
+
+/* Star */
+div.stars {
+    display: inline-block;
+}
+
+div.stars .star-review {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666666;
+    padding: 5px;
+}
+
+label.star {
+    padding: 0px;
+    font-size: 18px;
+    color: #444;
+}
+
+label.star-1:before,
+label.star-2:before,
+label.star-3:before,
+label.star-4:before {
+    content: '\f005';
+    color: #FD4;
+    font-family: FontAwesome;
+}
+
+label.star-5:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}
+
+
+/* Search Page & Dashboard Pagination */
+#search-pagination {
+    margin: 50px 0;
+}
+
+#dash-pagination {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#search-pagination .pagination li > a,
+#dash-pagination .pagination li > a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    border: none;
+    margin: 2px;
+    width: 34px;
+    height: 34px;
+}
+
+#search-pagination .pagination .fa-angle-left,
+.fa-angle-right,
+#dash-pagination .pagination .fa-angle-left,
+.fa-angle-right {
+    font-size: 20px;
+    width: 8px;
+    color: #333333;
+}
+
+#search-pagination .pagination li > a:hover,
+#dash-pagination .pagination li > a:hover {
+    background: none;
+}
+
+#search-pagination .pagination li > a:focus,
+#dash-pagination .pagination li > a:focus {
+    box-shadow: none;
+}
+
+#search-pagination .pagination li > a.active,
+#dash-pagination .pagination li > a.active {
+    background: #6255a5;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 34px;
+    height: 34px;
+}
+
+/*===========================
+        footer
+==========================*/
+footer #footer-content {
+    padding: 10px 0;
+}
+
+.footer-line p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #333333;
+
+}
+
+footer ul.social-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+footer ul.social-list li a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #6255a5;
+    border-radius: 50%;
+}
+
+/*===========================
+    Note Details Page
+==========================*/
+#note-detail-01 {
+    margin-top: 136px;
+    margin-bottom: 60px;
+}
+
+.nd-heading h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+    margin-bottom: 20px;
+}
+
+#nd-note-img img {
+    width: 240px;
+    height: 300px;
+}
+
+#nd-note-description {
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+#nd-note-description #nd-note-description-head h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6255a5;
+    margin-bottom: 5px;
+}
+
+#nd-note-description #nd-note-description-head p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#nd-note-description-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+#nd-download-btn {
+    width: 240px;
+    height: 50px;
+}
+
+#nd-download-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+    padding: 7px 15px;
+    ;
+}
+
+.nd-note-info-table {
+    margin: 0;
+}
+
+.nd-note-info-table td {
+    padding: 0;
+    margin: 0;
+}
+
+.nd-note-info-table td.nd-note-info-table-row-1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #333333;
+}
+
+.nd-note-info-table td.nd-note-info-table-row-2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #6255a5;
+    text-align: right;
+}
+
+.nd-note-info-table td > div.review {
+    text-align: right;
+}
+
+.nd-note-info-table td > div.review > div.stars {
+    padding: 0;
+    margin: 0;
+}
+
+.nd-note-info-table td > div.review > div.stars > div.star-review > span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #6255a5;
+}
+
+#nd-note-info p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #df3434;
+}
+
+/* Thanks Modal */
+#thanksModal .modal-dialog {
+    top: 100px;
+    width: 450px;
+}
+
+#thanksModal .modal-content .btn-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    outline: none;
+}
+
+#thanksModal .modal-content-inner {
+    padding: 40px 30px 0px 15px;
+}
+
+#thanksModal .modal-content-inner .modal-header-img img {
+    height: 50px;
+    width: 50px;
+}
+
+#thanksModal .modal-header {
+    border-bottom: 0 none;
+    padding-top: 10px;
+}
+
+#thanksModal .modal-footer {
+    border-top: 0 none;
+}
+
+#thanksModal .modal-header h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6255a5;
+}
+
+#thanksModal .modal-body #nd-thankmodal-bold p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+#thanksModal .modal-body #nd-thankmodal-normal p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* notes details part 02 */
+#note-detail-02 {
+    margin: 60px 0;
+}
+
+#nd-note-preview embed {
+    height: 363px;
+    width: 100%;
+}
+
+#nd-customer-review {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+#nd-customer-review .col-md-2,
+#nd-customer-review .col-md-10 {
+    padding: 0;
+}
+
+#nd-customer-review .reviewer-info h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#nd-customer-review .reviewer-info .reviewer-rating img {
+    width: 15px;
+    margin-bottom: 12px;
+}
+
+#nd-customer-review .reviewer-review-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+
+
+/*===========================
+        FAQ Page
+==========================*/
+
+#faq-top-img img {
+    width: 100%;
+    max-height: 250px;
+    margin-top: 76px;
+}
+
+#faq-top-img {
+    position: relative;
+}
+
+#faq-top-content h1 {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-300px) translateY(0px);
+    transform: translateX(-300px) translateY(0px);
+}
+
+#faq-general-question,
+#faq-uploaders,
+#faq-downloaders {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.faq-general-question-title h2,
+.faq-uploader-title h2,
+.faq-downloader-title h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+}
+
+#downloaders-QA {
+    margin-bottom: 60px;
+}
+
+/* Accordion */
+#general-questions-QA .accordion,
+#uploaders-QA .accordion,
+#downloaders-QA .accordion {
+    background: #f3f3f3;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+#general-questions-QA .accordion-flush,
+#uploaders-QA .accordion-flush,
+#downloaders-QA .accordion-flush {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+}
+
+#general-questions-QA .accordion .accordion-item,
+#uploaders-QA .accordion .accordion-item,
+#downloaders-QA .accordion .accordion-item {
+    padding: 5px 20px;
+}
+
+#general-questions-QA .accordion .accordion-item .accordion-header h6,
+#uploaders-QA .accordion .accordion-item .accordion-header h6,
+#downloaders-QA .accordion .accordion-item .accordion-header h6 {
+    margin: 0;
+    padding-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+#general-questions-QA .accordion-flush .accordion-item .accordion-header h6,
+#uploaders-QA .accordion-flush .accordion-item .accordion-header h6,
+#downloaders-QA .accordion-flush .accordion-item .accordion-header h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+}
+
+.accordion-body {
+    margin-bottom: 15px;
+}
+
+.accordion-body p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    margin: 0;
+}
+
+
+/*===========================
+    Dashboard-front Page
+==========================*/
+#dashboard-info-header,
+#mydownloads-notes,
+#mysold-notes,
+#buyerrequest-notes,
+#myrejected-notes {
+    margin-top: 136px;
+}
+
+#dashboard-info-header .dashboard-heading p,
+#mydownloads-notes .mydownloads-head p,
+#mysold-notes .mysoldnotes-head p,
+#buyerrequest-notes .buyerrequest-head p,
+#myrejected-notes .myrejectednote-head p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+}
+
+#dashboard-add-note-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+}
+
+#dashboard-info {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.dashboard-info-card {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    height: 151px;
+    padding: 40px 0;
+}
+
+#dashboard-earning-img img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+#dashboard-earning-title h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #6255a5;
+}
+
+.dashboard-info-card .dashboard-info-card-head h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #6255a5;
+}
+
+.dashboard-info-card .dashboard-info-card-head h3 > a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #6255a5;
+    text-decoration: none;
+}
+
+.dashboard-info-card .dashboard-info-card-p p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+}
+
+#dash-inprogress-notes,
+#dash-published-notes {
+    margin: 20px 0;
+}
+
+.dash-head h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+}
+
+.dash-search,
+.mydownloads-search,
+.mysoldnotes-search,
+.buyerrequest-search,
+.myrejectednote-search {
+    display: inline-flex;
+}
+
+.dash-search #search-inprogress-note,
+.mydownloads-search #search-downloaded-note,
+.mysoldnotes-search #search-mysold-note,
+.buyerrequest-search #search-buyerrequest-note,
+.myrejectednote-search #search-rejected-note {
+    width: 250px;
+    margin-right: 10px;
+    background-image: url('../images/Dashboard/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    padding-left: 35px;
+}
+
+.dash-search-btn a,
+.mydownloads-search a,
+.mysoldnote-search-btn a,
+.buyerrequest-search-btn a,
+.myrejectednote-search-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+    width: 100px;
+    height: 37px;
+}
+
+.dash-search-btn a:hover,
+.mydownloads-search a:hover,
+.mysoldnote-search-btn a:hover,
+.buyerrequest-search-btn a:hover,
+.myrejectednote-search-btn a:hover {
+    color: #fff;
+}
+
+/* Table */
+#dash-inprogress-notes-info table,
+#dash-published-notes-info table,
+#mydownloads-notes-info table,
+#mysold-notes-info table,
+#buyerrequest-notes-info table,
+#myrejected-notes-info table {
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+}
+
+#dash-inprogress-notes-info table tr,
+#dash-published-notes-info table tr,
+#mydownloads-notes-info table tr,
+#mysold-notes-info table tr,
+#buyerrequest-notes-info table tr,
+#myrejected-notes-info table tr {
+    height: 55px;
+}
+
+#dash-inprogress-notes-info table tr > th,
+#dash-published-notes-info table tr > th,
+#mydownloads-notes-info table tr > th,
+#mysold-notes-info table tr > th,
+#myrejected-notes-info table tr > th {
+    padding: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+#buyerrequest-notes-info table tr > th {
+    padding: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+#dash-inprogress-notes-info table tr > td,
+#dash-published-notes-info table tr > td,
+#mydownloads-notes-info table tr > td,
+#mysold-notes-info table tr > td,
+#myrejected-notes-info table tr > td {
+    padding: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    text-transform: capitalize;
+}
+
+#buyerrequest-notes-info table tr > td {
+    padding: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    text-transform: capitalize;
+}
+
+#mydownloads-notes-info table tr > td,
+#mysold-notes-info table tr > td,
+#buyerrequest-notes-info table tr > td,
+#myrejected-notes-info table tr > td {
+    text-transform: none;
+}
+
+#mydownloads-notes-info table tr > td > a,
+#mysold-notes-info table tr > td > a,
+#myrejected-notes-info table tr > td > a {
+    color: #6255a5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#buyerrequest-notes-info table tr > td > a {
+    color: #6255a5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#mydownloads-notes-info table tr > td:first-child,
+#mysold-notes-info table tr > td:first-child {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#buyerrequest-notes-info table tr > td:first-child {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#myrejected-notes-info table tr > td:first-child {
+    padding-left: 35px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#dash-inprogress-notes-info .table-hover tbody tr:hover,
+#dash-published-notes-info .table-hover tbody tr:hover,
+#mydownloads-notes-info .table-hover tbody tr:hover,
+#mysold-notes-info .table-hover tbody tr:hover,
+#buyerrequest-notes-info .table-hover tbody tr:hover,
+#myrejected-notes-info .table-hover tbody tr:hover {
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+#dash-inprogress-notes-info table tr > td > div.action-img > div,
+#dash-published-notes-info tr > td > div.action-img > div,
+#mydownloads-notes-info tr > td > div.action-img > div,
+#mysold-notes-info tr > td > div.action-img > div,
+#buyerrequest-notes-info tr > td > div.action-img > div,
+#myrejected-notes-info tr > td > div.action-img > div {
+    display: inline-flex;
+    margin: 0 5px;
+}
+
+/* My Downloads Page Add Review Modal */
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0;
+}
+
+.rate:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/* Add Review Modal */
+#reviewModal .modal-dialog {
+    top: 150px;
+}
+
+#reviewModal .modal-content .btn-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    outline: none;
+}
+
+#reviewModal .modal-content-inner {
+    padding: 0 20px;
+}
+
+#reviewModal .modal-header {
+    border-bottom: 0 none;
+}
+
+#reviewModal .modal-header {
+    margin-top: 10px;
+}
+
+#reviewModal .modal-header h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6255a5;
+}
+
+#reviewModal .modal-body {
+    padding-top: 0;
+}
+
+#reviewModal .modal-body #review-comment {
+    margin-top: 20px;
+}
+
+#reviewModal .modal-body #review-submit-btn {
+    margin: 10px 0;
+}
+
+#reviewModal .modal-body #review-submit-btn a {
+    width: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase
+}
+
+/*===========================
+        Add Notes Page
+==========================*/
+
+#addnote-top-img img {
+    width: 100%;
+    min-height: 200px;
+    max-height: 250px;
+    margin-top: 76px;
+}
+
+#addnote-top-img {
+    position: relative;
+}
+
+#addnote-top-content h1 {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+    margin-bottom: 0;
+}
+
+#addnote-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#addnote-heading .addnote-heading-bold p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+    margin-bottom: 8px;
+}
+
+.addnote-notedetail-form .form-group > label,
+.addnote-institute-info-form .form-group > label,
+.addnote-course-info-form .form-group > label,
+.addnote-selling-info-form .form-group > label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333333;
+}
+
+.addnote-notedetail-form .form-group input::placeholder,
+.addnote-notedetail-form .form-group textarea::placeholder,
+.addnote-institute-info-form .form-group input::placeholder,
+.addnote-course-info-form .form-group input::placeholder,
+.addnote-selling-info-form .form-group input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+
+
+/* this is for remove arrow of input box */
+.addnote-notedetail-form .form-group > select,
+.addnote-institute-info-form .form-group > select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+/* For IE10 */
+.addnote-notedetail-form .form-group > select::-ms-expand,
+.addnote-institute-info-form .form-group > select::-ms-expand {
+    display: none;
+}
+
+.addnote-notedetail-form .form-group > select.form-control,
+.addnote-institute-info-form .form-group > select.form-control {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8a8a8a;
+    background-image: url('../images/Dashboard/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 500px 13px;
+}
+
+
+/* Background image for input files */
+.addnote-notedetail-form .form-group > textarea#addnote-note-displaypicture::placeholder {
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+.addnote-notedetail-form .form-group > textarea#addnote-note-displaypicture {
+    background-image: url('../images/addnotes/upload-file.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.addnote-notedetail-form .form-group > textarea#addnote-note-uploadnote::placeholder {
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+.addnote-notedetail-form .form-group > textarea#addnote-note-uploadnote {
+    background-image: url('../images/addnotes/upload-note.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.addnote-selling-info-form .form-group > textarea#addnote-note-preview::placeholder {
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+.addnote-selling-info-form .form-group > textarea#addnote-note-preview {
+    background-image: url('../images/addnotes/upload-file.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Radio Buttons */
+.addnote-selling-info-form .form-group div.form-check input[type=radio] {
+    width: 25px;
+    height: 25px;
+    background-color: #6255a5;
+}
+
+.addnote-selling-info-form .form-group div.form-check input[type='radio']:checked:after {}
+
+
+#addnote-save-btn,
+#addnote-publish-btn {
+    margin-top: 8px;
+}
+
+#addnote-save-btn a,
+#addnote-publish-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+}
+
+
+
+/*===========================
+       Contact Us Page
+==========================*/
+
+#contactus-top-img img {
+    width: 100%;
+    max-height: 250px;
+    margin-top: 76px;
+}
+
+#contactus-top-img {
+    position: relative;
+}
+
+#contactus-top-content h1 {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+    margin-bottom: 0;
+}
+
+#contactus-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#contactus-heading .contactus-heading-bold p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+    margin-bottom: 8px;
+}
+
+#contactus-heading .contactus-heading-norm p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333333;
+}
+
+#contactus-form-section {
+    margin-bottom: 40px;
+}
+
+#contactus-form-section .form-group > label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333333;
+}
+
+#contactus-form-section .form-group input::placeholder,
+#contactus-form-section .form-group textarea::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+#contactus-submit-btn {
+    margin-top: 8px;
+}
+
+#contactus-submit-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+}
+
+
+/*===========================
+    User Profile Page
+==========================*/
+
+#userprofile-top-img img {
+    width: 100%;
+    min-height: 200px;
+    max-height: 250px;
+    margin-top: 76px;
+}
+
+#userprofile-top-img {
+    position: relative;
+}
+
+#userprofile-top-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+    margin-bottom: 0;
+}
+
+.userprofile-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.userprofile-heading .userprofile-heading-bold p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+    margin-bottom: 8px;
+}
+
+/* User profile form */
+.userprofile-profile-form .form-group > label,
+.userprofile-address-form .form-group > label,
+.userprofile-uni-info-details .form-group > label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333333;
+}
+
+.userprofile-profile-form .form-group input::placeholder,
+.userprofile-address-form .form-group input::placeholder,
+.userprofile-uni-info-details .form-group input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+/* this is for remove arrow of input box */
+.userprofile-profile-form .form-group > select,
+.userprofile-address-form .form-group > select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+/* For IE10 */
+.userprofile-profile-form .form-group > select::-ms-expand,
+.userprofile-address-form .form-group > select::-ms-expand {
+    display: none;
+}
+
+.userprofile-profile-form .form-group > select.form-control,
+.userprofile-address-form .form-group > select.form-control {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8a8a8a;
+    background-image: url('../images/Dashboard/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 500px 13px;
+}
+
+.userprofile-profile-form .form-group > select#user-phone-no-code {
+    background-position: 80px 13px;
+}
+
+.userprofile-profile-form .form-group > input#user-DOB {
+    background-image: url('../images/user-profile/calendar.png');
+    background-repeat: no-repeat;
+    background-position: 500px 8px;
+}
+
+
+.userprofile-profile-form .form-group > textarea#user-profile-picture::placeholder {
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+.userprofile-profile-form .form-group > textarea#user-profile-picture {
+    background-image: url('../images/addnotes/upload-file.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#userprofile-submit-btn {
+    margin-top: 8px;
+}
+
+#userprofile-submit-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+}
+
+/* Login Page */
+
+#bg-img img {
+    width: 100%;
+    padding-left: 40px;
+    padding-right:  40px;
+    background-color:black;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+#login-top-logo,
+#change-password-top-logo {
+    margin-top: 10%;
+}
+
+#forgot-password #fp-top-logo {
+    margin-top: 50%;
+}
+
+#signup-top-logo {
+    margin-top: 10%;
+}
+
+#login-box-white,
+#fp-box-white,
+#change-password-box-white {
+    height: 10%;
+    width: 80%;
+    margin-top: 15px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+#signup-box-white {
+    height: 80%;
+    width: 80%;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 5px;
+    margin-left: 55px;
+}
+
+#login-box-head h3,
+#fp-box-head h3,
+#change-password-box-head h3 {
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+}
+
+#login-box-head p,
+#fp-box-head p,
+#change-password-box-head p {
+    margin-bottom: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #333333;
+}
+
+#signup-box-head h3 {
+    margin-bottom: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+}
+
+#signup-box-head p {
+    margin-bottom: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #333333;
+}
+
+#login-form .form-group label,
+#forgot-pass-form .form-group label,
+#change-password-form .form-group label {
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+#signup-form .form-group label {
+    margin-bottom: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
+
+#login-form .form-group input::placeholder,
+#forgot-pass-form .form-group input::placeholder,
+#change-password-form .form-group input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8a8a8a;
+}
+
+#signup-form .form-group input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+#password-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#password-row a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6255a5;
+    text-decoration: none;
+}
+
+#forgot-pass-submit-btn,
+#change-password-submit-btn,
+#signup-btn {
+    margin-top: 30px;
+}
+
+#login-btn a,
+#login-button,
+#forgot-pass-submit-btn a,
+#change-password-submit-btn a,
+#signup-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#signup-link,
+#login-link {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#signup-link p,
+#login-link p {
+    display: inline-flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+#signup-link a,
+#login-link a {
+    display: inline-flex;
+    margin-left: 3px;
+    color: #6255a5;
+    text-decoration: none;
+}
+
+.field-icon {
+    float: right;
+    margin-right: 15px;
+    margin-top: -32px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Signup email verification Modal */
+#verifyemailModal .modal-dialog {
+    top: 150px;
+}
+
+#verifyemailModal .modal-content-inner {
+    padding: 30px;
+}
+
+#verifyemailModal .modal-content-inner .modal-header-img img {
+    /*    width: 100%;*/
+}
+
+#verifyemailModal .modal-header {
+    border-bottom: 0 none;
+    padding-left: 0;
+}
+
+#verifyemailModal .modal-footer {
+    border-top: 0 none;
+}
+
+#verifyemailModal .modal-header h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6255a5;
+    margin-top: 20px;
+}
+
+#verifyemailModal .modal-body,
+#verifyemailModal .modal-footer {
+    padding: 0;
+}
+
+#verifyemailModal .modal-body #nd-thankmodal-bold p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#verifyemailModal .modal-body #nd-thankmodal-normal p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+#verifyemailModal .modal-footer #verify-email-btn {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#verifyemailModal .modal-footer #verify-email-btn a {
+    width: 100%;
+    padding: 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
