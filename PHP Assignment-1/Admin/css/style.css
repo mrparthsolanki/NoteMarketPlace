@@ -1,0 +1,2050 @@
+
+/*==================================================================================================================================================
+                Login Page
+===================================================================================================================================================*/
+
+
+
+
+.bg{
+    background: url(../images/banner-with-overlay.jpg) no-repeat;
+    background-color: #0e0e0e;  
+    margin: 0px;
+    height: 660px;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+
+.form-container{
+    position: absolute;
+    top: 20vh;
+    background: #fff;
+    border-radius: 9px;
+    box-shadow: 0 0 10px;   
+    box-sizing: content-box;
+    height: 480px;
+    width: 350px;
+    left: 450px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+
+.lgn{
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-weight: bold (600);
+    line-height: 38px;
+    color: #6255a5;
+    padding-bottom: 10px;
+    padding-top: 12px;
+}
+
+.head{
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #333333;
+    padding-bottom: 20px;
+    
+}
+
+#email{
+     font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    
+}
+
+#exampleInputEmail1{
+     font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    border:1px solid #6255a5;
+    width: 370px;
+    height: 50px;
+    border-radius: 3px;
+    padding-bottom: 20px;
+}
+
+.email-1
+{
+    padding-bottom: 20px;
+}
+
+
+#exampleInputPassword1{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8a8a8a;
+    border: 1px solid #ff5e5e;
+    width: 370px;
+    height: 50px;
+    border-radius: 3px;
+    
+}
+
+h6{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #FF3636; 
+    font-weight: lighter;
+}
+
+#remember{
+    border: 1px solid #d1d1d1;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+   
+    
+}
+
+.form-check-label{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    margin-left: 15px;
+}
+
+.btn-block {
+    background-color: #6255a5;
+    width: 370px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    padding-left: 50px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+.button-index
+{
+    padding-top: 22px;
+}
+
+span.psw {
+  float: right;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400 lighter;
+  line-height: 20px;
+  color: #6255a5;   
+}
+
+.img{
+    padding-top: 75px;
+    padding-left: 530px;
+    
+}
+
+#signup{
+    color: #6255a5 ;
+    font-weight: lighter;
+}
+
+.field-icon {
+  float: right;
+  text-align: left;
+  margin-top: -35px;
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+}
+
+/*=================================================================================================================================================
+                 Forgot Page
+
+===================================================================================================================================================*/
+
+
+.bg-1{
+    background: url(../images/banner-with-overlay.jpg) no-repeat;
+    background-color: #0e0e0e;  
+    margin: 0px;
+    height: 880px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.form-container-forgot{
+    position: absolute;
+    top: 25vh;
+    background: #fff;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px;   
+    box-sizing: 18%;
+    height: 300px;
+    width: 450px;
+    left: 700px;
+}
+
+.InputEmail1-forgot{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    border:1px solid #6255a5;
+    width: 400px;
+    height: 60px;
+    border-radius: 3px; 
+}
+
+.btn-forgot{
+    background-color: #6255a5;
+    width: 410px;
+    height: 40px;
+    color: #fff;    
+    font-family: "Open Sans";
+    font-size: 18px;
+    padding-left: 50px;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    font-weight: li
+    
+}
+
+#fp{
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 600;
+    font-weight: bold;
+    line-height: 38px;
+    color: #6255a5;
+}
+
+
+#forgot-email{
+   font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #333333;
+    padding-bottom: 10px; 
+}
+
+
+.forgot-img{
+    padding-top: 150px;
+    padding-left:10px;
+    
+}
+
+.for-1
+{
+    width: 300px;
+}
+
+/*===================================================================================================================================================
+    
+Navigation Menu
+
+===================================================================================================================================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+#mynav {
+    height: 76px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+    transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    padding: 10px 0;
+    background: #ffffff;
+}
+
+#mynav a.navbar-brand img {
+    width: 220px;
+    height: 35px;
+}
+
+#navbarmenu {
+    background: #fff;
+}
+
+#navbarmenu ul > li {
+    margin: 0 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    height: 40px;
+    vertical-align: middle;
+}
+
+#navbarmenu ul > li:last-child {
+    margin-right: 0;
+}
+
+#navbarmenu ul > li > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 18px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#navbarmenu ul > li > a > img {
+    height: 38px;
+    width: 38px;
+}
+
+#navbarmenu ul li a#home-login-btn {
+    width: 89px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#navbarmenu ul > li.dropdown > a#userdropdownMenu {
+    padding: 0;
+}
+
+#navbarmenu ul > li > a:hover {
+    background: none;
+    color: #6255a5;
+}
+
+#navbarmenu ul > li > a.active {
+    color: #6255a5;
+    background: none;
+    border-bottom: 3px solid #6255a5;
+}
+
+#navbarmenu ul li.dropdown > div > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #333333;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+#navbarmenu ul li.dropdown > div > a#user-logout {
+    color: #6255a5;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#navbarmenu ul li.dropdown > div > a:hover,
+#navbarmenu ul li.dropdown > div > a#user-logout:hover {
+    background: #6255a5;
+    color: #fff;
+}
+
+div.dropdown-menu > a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #333333;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+div.dropdown-menu > a:hover {
+    background: #6255a5;
+    color: #fff;
+}
+
+
+/*====================
+        Buttons
+=====================*/
+.btn-general {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-white {
+    background: #fff;
+}
+
+.btn-purple {
+    background: #6255a5;
+    border-radius: 3px;
+}
+
+.btn-transparent {
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.btn-transparent:hover {
+    color: #fff;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/* =========================================
+                Footer
+=========================================== */
+.footer-second{
+    background-color:#fff; 
+    border-top: ridge #333333; 
+    padding: 12px;   
+}
+
+footer p{
+    color: black;
+    line-height: 20px;
+    margin: 0;
+}
+
+.footer-second  ul.list-social-1 li {
+    display: inline-block;
+    padding: 0;
+        
+}
+.footer-second ul.list-social-1
+{
+    text-align: right;
+    
+}
+
+
+
+
+
+/* ==================================================================================================================================================
+
+Dashboard
+
+==================================================================================================================================================== */
+
+
+#dashboard-admin-info-header .dashboard-heading p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+    
+    
+    
+}
+
+#dashboard-admin-info {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.dashboard-info-card {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    height: 131px;
+    padding: 20px 0;
+}
+
+.dashboard-info-card .dashboard-info-card-head h3 > a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #6255a5;
+    text-decoration: none;
+}
+
+.dashboard-info-card .dashboard-info-card-p p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+}
+
+#heading-download-notes
+{
+   font-size: 35px;
+    font-weight: bold;
+    color: #6255a5;
+    padding-top: 100px;
+    padding-left: 60px; 
+}
+
+/* Table-1 */
+#Genaeral-Table table {
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    width: 1120px;
+    margin-left: 100px;
+      
+}
+
+#Genaeral-Table table tr {
+    height: 55px;
+}
+
+#Genaeral-Table table tr > th {
+    text-align: center;
+    padding-bottom: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+#Genaeral-Table table tr > td {
+    text-align: center;
+    padding-top: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    text-transform: capitalize;
+}
+
+#Genaeral-Table table tr > td > a {
+    color: #6255a5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#Genaeral-Table .table-hover tbody tr:hover {
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+#Genaeral-Table table tr > td > div.action-img > div {
+    display: inline-flex;
+    margin: 0 5px;
+}
+
+#downloaded-note-search-field{
+    width: 250px;
+    margin-right: 10px;
+    background-image: url('../images/Dashboard/search.jpg');
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    padding-left: 35px;
+  
+}
+  /*===============================================================================================================================
+    
+
+        Members Page / Member Details / Spam report / Notes under review / published note / Downloaded Notes / Rejected Notes
+
+===============================================================================================================================*/
+#members,
+#member-details-section,
+#spam-report,
+#notes-under-review,
+#published-note-sec,
+#downloaded-note-sec,
+#rejected-note-sec {
+    margin-top: 116px;
+    margin-bottom: 20px;
+}
+
+#members .members-head p,
+#member-details-section .member-detail-head p,
+#spam-report .spam-report-head p,
+#notes-under-review .notes-under-review-head p,
+#published-note-sec .published-note-sec-head p,
+#downloaded-note-sec .downloaded-note-sec-head p,
+#rejected-note-sec .rejected-note-sec-head p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+    margin-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+#notes-under-review label,
+#published-note-sec label,
+.downloaded-note-label,
+.rejected-note-search-01 label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333333;
+}
+
+.members-search,
+.spam-report-search,
+.notes-under-review-search,
+.published-note-search,
+.downloaded-note-search-02,
+.rejected-note-search-02 {
+    display: inline-flex;
+}
+
+.downloaded-note-search-02,
+.rejected-note-search-02 {
+    margin-top: 28px;
+}
+
+.members-search #search-members,
+.spam-report-search #search-spam-report,
+.notes-under-review-search #notes-under-review-search-field,
+.published-note-search #published-note-search-field,
+.downloaded-note-search-02 #downloaded-note-search-field,
+.rejected-note-search-02 #rejected-note-search-field {
+    width: 250px;
+    margin-right: 10px;
+    background-image: url('../images/Dashboard/search.jpg');
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    padding-left: 35px;
+}
+
+.sear-box
+{
+    padding-right: 100px;
+}
+
+.members-search-btn a,
+.spam-report-search-btn a,
+.notes-under-review-search-btn a,
+.published-note-search-btn a,
+.downloaded-note-search-btn a,
+.rejected-note-search-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-right: 10px;
+    color: #fff;
+    width: 100%;
+    height: 37px;
+}
+
+.members-search-btn a:hover,
+.spam-report-search-btn a:hover,
+.notes-under-review-search-btn a:hover,
+.published-note-search-btn a:hover,
+.downloaded-note-search-btn a:hover,
+.rejected-note-search-btn a:hover {
+    color: #fff;
+}
+  
+#notes-under-review-by-seller::-ms-expand,
+#published-note-by-seller::-ms-expand,
+.downloaded-note-search-01 .form-group select::-ms-expand,
+#rejected-note-seller::-ms-expand {
+    display: none;
+    padding-left: 50px;
+}
+
+#notes-under-review-by-seller,
+#published-note-by-seller,
+#rejected-note-seller {
+    width: 150px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8a8a8a;
+    background-image: url('../images/Dashboard/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 120px 13px;
+}
+
+.downloaded-note-search-01 .form-group select {
+    width: 170px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8a8a8a;
+    background-image: url('../images/Dashboard/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 140px 13px;
+    
+}
+
+#notes-under-review-by-seller,
+#published-note-by-seller,
+.downloaded-note-search-01 .form-group select,
+#rejected-note-seller {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+.drp
+{
+    padding-left: 60px;
+}
+
+/* Pagination */
+
+#dash-pagination {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#dash-pagination .pagination li > a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    border: none;
+    margin: 2px;
+    width: 25px;
+    height: 25px;
+}
+
+#dash-pagination .pagination .fa-angle-left,
+.fa-angle-right {
+    font-size: 20px;
+    width: 8px;
+    color: #333333;
+}
+
+#dash-pagination .pagination li > a:hover {
+    background: none;
+}
+
+#dash-pagination .pagination li > a:focus {
+    /*    outline: none !important;*/
+    box-shadow: none;
+}
+
+#dash-pagination .pagination li > a.active {
+    background: #6255a5;
+    border-radius: 50%;
+    color: #ffffff;
+    width: 34px;
+    height: 34px;
+}
+
+.dash-head h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+}
+
+.dash-search {
+    display: inline-flex;
+}
+
+.dash-search #search-published-note {
+    width: 250px;
+    margin-right: 10px;
+    background-image: url('../images/Dashboard/search.jpg');
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    padding-left: 35px;
+}
+
+.dash-search-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-right: 10px;
+    color: #fff;
+    width: 100px;
+    height: 37px;
+}
+
+.dash-search-btn a:hover {
+    color: #fff;
+}
+
+/* this is for remove arrow of input box */
+.dash-search .form-group > select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+/* For IE10 */
+.dash-search .form-group > select::-ms-expand {
+    display: none;
+}
+
+#dash-search-by-month {
+    width: 150px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8a8a8a;
+    background-image: url('../images/Dashboard/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 120px 13px;
+}
+
+
+/*==========================================================================================================================================
+
+    Manage Administrator,Category,Country,Type Page 
+
+==============================================================================================================================================*/
+#manage-administrator-header,
+#manage-category-header,
+#manage-country-header,
+#manage-type-header {
+    margin-top: 116px;
+    margin-bottom: 20px;
+}
+
+#manage-administrator-header .manage-admin-heading p,
+#manage-category-header .manage-category-heading p,
+#manage-country-header .manage-country-heading p,
+#manage-type-header .manage-type-heading p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+    margin-bottom: 8px;
+    margin-bottom: 20px;
+}
+.add-admin-search #administrator-search,
+.manage-category-search #category-search,
+.manage-country-search #country-search,
+.manage-type-search #type-search {
+    width: 250px;
+    margin-right: 10px;
+    background-image: url('../images/Dashboard/search.jpg');
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    padding-left: 35px;
+}
+
+.add-administrator-btn a,
+.add-category-btn a,
+.add-country-btn a,
+.add-type-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-right: 10px;
+    color: #fff;
+    width: 230px;
+    height: 37px;
+}
+
+.add-category-btn a {
+    width: 180px;
+    height: 37px;
+}
+
+.add-country-btn a {
+    width: 150px;
+}
+
+.add-type-btn a {
+    width: 120px;
+}
+
+.administrator-search-btn a,
+.category-search-btn a,
+.country-search-btn a,
+.type-search-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-right: 10px;
+    color: #fff;
+    width: 100%;
+    height: 37px;
+}
+
+.add-administrator-btn a:hover,
+.administrator-search-btn a:hover,
+.add-category-btn a:hover,
+.category-search-btn a:hover,
+.add-country-btn a:hover,
+.country-search-btn a:hover,
+.add-type-btn a:hover,
+.type-search-btn a:hover {
+    color: #fff;
+}
+
+
+/* ==================================================================================================================================================
+            
+                My-Profile
+
+==================================================================================================================================================== */
+
+.myprofile-heading,
+.add-admin-heading {
+    margin-top: 116px;
+    margin-bottom: 20px;
+}
+
+.myprofile-heading .myprofile-heading-bold p,
+.add-admin-heading .add-admin-heading-bold p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+    margin-bottom: 8px;
+}
+
+/* User profile form & add admin form */
+.myprofile-form .form-group > label,
+.add-admin-form .form-group > label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333333;
+}
+
+.myprofile-form .form-group input::placeholder,
+.add-admin-form .form-group input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+/* this is for remove arrow of input box */
+#myprofile-phone-no-code,
+#add-admin-phone-no-code {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+}
+
+/* For IE10 */
+#myprofile-phone-no-code::-ms-expand,
+#add-admin-phone-no-code::-ms-expand {
+    display: none;
+}
+
+#myprofile-phone-no-code,
+#add-admin-phone-no-code {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8a8a8a;
+    background-image: url('../images/Dashboard/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 80px 13px;
+}
+
+.myprofile-form .form-group > textarea::placeholder {
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+.myprofile-form .form-group > textarea {
+    background-image: url('../images/Add-notes/upload-file.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#myprofile-submit-btn {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+#add-admin-submit-btn {
+    margin-top: 5px;
+    margin-bottom: 120px;
+}
+
+#myprofile-submit-btn a,
+#add-admin-submit-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+}
+
+
+.file-cta
+{
+    width: 520px;
+    height: 80px;
+    border: 2px solid #eee;
+    color: #9b9b9b;
+    background-color: #fff;
+}
+
+.file-icon img
+{
+    
+    max-width: 500px;
+    padding-left:460px;
+    padding-bottom: 25px;
+}
+
+.lba
+{
+    
+    font-family: "Open Sans",sans-serif;  
+    padding-left: 160px;
+    padding-top: 35px;
+}
+
+
+.btn-user-pro
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #6255a5;
+}
+
+
+
+/* ==================================================================================================================================================
+         
+            Note-Details
+
+==================================================================================================================================================== */
+
+
+
+#container-note-details
+{
+    padding-left: 70px;
+    padding-top: 60px;
+}
+
+#container-note-details-1
+{
+    padding-left: 70px;
+    padding-top: 60px;
+}
+
+
+#heading-note
+{
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+    padding-bottom: 20px;
+}
+
+.note-1-text
+{
+    font-family: "Open Sans";
+    font-size: 34px;
+    font-weight: 500;
+    font-weight: bold;
+    line-height: 38px;
+    color: #6255a5;
+    
+}
+
+.note-2-text
+{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333333;
+}
+
+
+.para-text
+{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    padding-top: 10px;
+}
+
+
+.btn-download
+{
+    background-color: #6255a5;
+    width: 204px;
+    height: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-style: "Open Sans";
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.btn-dwn
+{
+    padding-top: 30px;
+}
+
+
+#container-note-details-1
+{
+   
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+.lable-1
+{
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 36px;
+    color: #333333;
+    font-size: 18px;
+}
+
+.lable-2
+{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #6255a5;
+    
+}
+
+.lable-3
+{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #df3434;
+    padding-top: 10px;
+}
+
+
+
+.content-box-md
+{
+    border: 1px solid #d1d1d1;
+    width: 700px;
+    height: 400px;
+    border-radius: 3px;
+    
+}
+
+
+
+.line {
+  width: 90%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 0.000001px;
+  border-color: #d1d1d1;
+}
+
+#im
+{
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+
+.author-para
+{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+}
+
+.author-heading
+{
+    font-style: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+
+
+
+.line-1
+{
+   width: 95%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: ridge;
+  border-width: 1px;
+  border-color: dimgrey; 
+}
+
+.cms
+{
+    padding-left: 70px;
+}
+
+
+.reviewer-rating span
+{
+   color: #ffc700; 
+}
+
+
+.reviewer-rating #star-white 
+{
+  color:#ccc;
+   
+    
+}
+
+#note-detail-02 {
+    margin-top: 136px;
+    margin-bottom: 60px;
+   padding-left: 70px;
+    
+}
+
+.nd-heading h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+    
+}
+
+
+
+
+
+/* Table-2 */
+
+#notes-under-review-info table
+{
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    width: 1250px;
+    margin-left: 60px;
+}
+
+
+#notes-under-review-info table tr
+ {
+    height: 55px;
+}
+
+
+#notes-under-review-info table tr > th
+ {
+    padding-bottom: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#notes-under-review-info table tr > td
+ {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+#notes-under-review-info table tr > td > a
+{
+    font-size: 15px;
+    font-weight: 500;
+    color: #6255a5;
+    text-decoration: none;
+}
+
+
+#notes-under-review-info .table-hover tbody tr:hover
+{
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+#notes-under-review-info table tr > td > div.action-img > div.view-seller-icon > a > img
+{   width: 80%;
+}
+
+#notes-under-review-info table tr > td > div.action-img > div
+ {
+    display: inline-flex;
+    margin: 0 5px;
+}
+
+#notes-under-review-info table tr > td {
+    padding-left: 0;
+}
+
+
+
+
+/* Table-3 */
+#members-info table,
+#member-detail-note-info-section table,
+#spam-report-info table,
+#published-note-info table,
+#downloaded-note-info table,
+#rejected-note-info table {
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    width: 1250px;
+    margin-left: 70px;
+}
+
+#members-info table tr,
+#member-detail-note-info-section table tr,
+#spam-report-info table tr,
+#published-note-info table tr,
+#downloaded-note-info table tr,
+#rejected-note-info table tr {
+    height: 55px;
+}
+
+#members-info table tr > th,
+#member-detail-note-info-section table tr > th,
+#spam-report-info table tr > th,
+#published-note-info table tr > th,
+#downloaded-note-info table tr > th,
+#rejected-note-info table tr > th {
+    padding-bottom: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#members-info table tr > td,
+#member-detail-note-info-section table tr > td,
+#spam-report-info table tr > td,
+#published-note-info table tr > td,
+#downloaded-note-info table tr > td,
+#rejected-note-info table tr > td {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+#members-info table tr > td > a,
+#member-detail-note-info-section table tr > td > a,
+#spam-report-info table tr > td > a,
+#published-note-info table tr > td > a,
+#downloaded-note-info table tr > td > a,
+#rejected-note-info table tr > td > a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #6255a5;
+    text-decoration: none;
+}
+
+#members-info .table-hover tbody tr:hover,
+#member-detail-note-info-section .table-hover tbody tr:hover,
+#spam-report-info .table-hover tbody tr:hover,
+#published-note-info .table-hover tbody tr:hover,
+#downloaded-note-info .table-hover tbody tr:hover,
+#rejected-note-info .table-hover tbody tr:hover {
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+#published-note-info table tr > td > div.action-img > div.view-publisher-icon > a > img,
+#downloaded-note-info table tr > td > div.action-img > div.view-downloaded-buyer-icon > a > img,
+#downloaded-note-info table tr > td > div.action-img > div.view-downloaded-seller-icon > a > img,
+#rejected-note-info table tr > td > div.action-img > div.view-rejected-seller-icon > a > img {
+    width: 80%;
+}
+
+#members-info table tr > td > div.action-img > div,
+#member-detail-note-info-section table tr > td > div.action-img > div,
+#published-note-info table tr > td > div.action-img > div,
+#downloaded-note-info table tr > td > div.action-img > div.action-downloaded-note,
+#rejected-note-info table tr > td > div.action-img > div.action-rejected-note {
+    display: inline-flex;
+    margin: 0 5px;
+}
+
+#published-note-info table tr > td {
+    padding-left: 0;
+}
+
+
+
+/* Reject Modal */
+#rejectModal .modal-dialog {
+    top: 150px;
+}
+
+#reviewModal .modal-content-inner {
+    padding: 0 20px;
+}
+
+#rejectModal .modal-header h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6255a5;
+}
+
+#rejectModal .modal-body label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #333333;
+}
+
+#rejectModal .modal-body textarea::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+#reject-modal-btn a {
+    width: 100px;
+    background: #ff3636;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+}
+
+#reject-modal-cancel-btn a {
+    width: 100px;
+    background: #cccccc;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+}
+
+/*
+    note preview
+*/
+.center-block-horiz {
+   margin-left: auto !important;
+   margin-right: auto !important;
+    width: 450px;
+    height: 30px;
+ }
+.set-margin-cicis-menu-to-go {
+  margin: 10px;
+}
+.set-padding-cicis-menu-to-go {
+  padding: 10px;
+}
+
+
+/* notes details part 02 */
+#note-detail-02 {
+    margin: 60px 0;
+}
+
+#nd-note-preview embed {
+    height: 363px;
+    width: 100%;
+}
+
+#nd-customer-review {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+#nd-customer-review > div.row > div.col-md-2,
+#nd-customer-review > div.row > div.col-md-10 {
+    padding: 0;
+}
+
+#nd-customer-review .reviewer-info h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#nd-customer-review .reviewer-info .reviewer-rating img {
+    width: 15px;
+    margin-bottom: 12px;
+}
+
+#nd-customer-review .reviewer-review-content p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+/* Model */
+
+
+.modal-content
+{
+    width: 410px;
+    height: 550px;
+    padding:20px 20px; 
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+ 
+}
+
+.modal-header #cls-1
+{
+    padding-left: 200px;
+}
+
+.modal-header .icon-1
+{
+    
+    width: 63px;
+    height: 63px;
+    border: 2px solid #6255a5;
+    background: #6255a5;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 60px;
+   margin-left: 10px;
+    
+}
+
+.modal-header .fa-check
+{
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 15px;
+    
+    
+}
+
+.check-2
+{
+    padding-left: 130px;
+}
+
+.modal-body .title-1
+{
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 600;
+    font-weight: bold;
+    line-height: 30px;
+    color: #6255a5;
+    margin-top: 10px;
+   margin-left: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+.popup .title-2
+{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+    font-weight: bold;
+    line-height: 30px;
+    color: #333333;
+    padding-right: 260px;
+    padding-top: 20px;
+    
+}
+
+
+.modal-body .description
+{
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #333333;
+    
+}
+
+.modal-body .description-1
+{
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+    padding-top:15px;
+}
+
+
+
+.modal-body .description-2
+{
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #333333;
+    padding-top:15px;
+}
+
+
+.modal-body.description-3
+{
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #333333;
+    padding-top:15px;
+}
+
+
+
+
+
+/* =========================================
+        Manage-System-Configuration
+=========================================== */
+
+.msc-heading {
+    margin-top: 116px;
+    margin-bottom: 20px;
+}
+
+.msc-heading .msc-heading-bold p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+    margin-bottom: 8px;
+}
+
+/* msc form */
+.msc-form .form-group > label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #333333;
+}
+
+.msc-form .form-group input::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #8a8a8a;
+}
+
+.msc-form .form-group > textarea::placeholder {
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8a8a8a;
+}
+
+.msc-form .form-group > textarea {
+    background-image: url('../images/Add-notes/upload-file.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#msc-submit-btn {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+#msc-submit-btn a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+}
+
+
+
+
+/* =========================================
+      members-Details
+=========================================== */
+
+.note-title-2
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #6255a5;
+    margin: 20px 0; 
+    padding-left: 120px;
+}
+
+#container-note-details-5
+{
+    padding-left: 80px;
+    padding-top: 25px;
+}
+
+
+#container-note-details-6
+{
+    padding-left: 120px;
+    padding-top: 95px;
+}
+.lable-4
+{
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 36px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.lable-5
+{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #6255a5;
+    
+}
+
+
+.vertical
+{ 
+    border-left: 1px solid #d1d1d1; 
+    height: 250px; 
+    position:absolute; 
+    left: 50%; 
+    top: 160px;
+}
+
+
+
+/*===========================================================================================================================================
+
+    Member Details Information Table
+
+============================================================================================================================================*/
+.member-info-table tr > td {
+    padding: 0;
+}
+
+.member-info-table tr > td.member-info-table-col-1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #333333;
+}
+
+.member-info-table tr > td.member-info-table-col-2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #6255a5;
+}
+
+#member-details-vertical-line {
+    border-left: 1px solid #d1d1d1;
+}
+
+#member-info-02 {
+    margin-left: 20px;
+}
+
+#notes-heading h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #6255a5;
+    margin: 20px 0;
+}
+
+
+
+
+
+#heading-add-administraor
+{
+     font-size: 35px;
+    font-weight: bold;
+    color: #6255a5;
+    padding-top: 90px;
+    padding-left: 125px;
+}
+
+#heading-my-profile
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #6255a5;
+    padding-top: 10px;
+    padding-left: 125px;
+    
+}
+
+.lab-name
+{
+    
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+#f-name
+{
+    border: 1px solid #d1d1d1;
+    width: 520px;
+    height: 50px;
+    border-radius: 3px;
+    
+}
+
+
+
+
+#title-drp
+{
+     border: 1px solid #d1d1d1;
+    width: 120px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+
+#int-num
+{
+    border: 1px solid #d1d1d1;
+    width: 330px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+/* =========================================
+            Add-Category
+=========================================== */
+
+
+#heading-add-Country
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #6255a5;
+    padding-top: 100px;
+    padding-left: 120px;
+    
+}
+
+#heading-add-type
+{
+   font-size: 35px;
+    font-weight: bold;
+    color: #6255a5;
+    padding-top: 100px;
+    padding-left: 120px; 
+}
+
+#heading-add-category
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #6255a5;
+    padding-top: 80px;
+    padding-left: 20px;
+    
+}
+
+.lab-name-1
+{
+    
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+#f-name-1
+{
+    border: 1px solid #d1d1d1;
+    width: 520px;
+    height: 50px;
+    border-radius: 3px;
+    
+}
+
+
+#cmt_que
+{
+     border: 1px solid #d1d1d1;
+    width: 520px;
+    height: 150px;
+    border-radius: 3px;
+    
+}
+
+.btn-submit-category
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #6255a5;
+    font-weight: bold;
+}
+
+
+.btn-cat
+{
+    padding-left: 10px;
+}
+
+
+
+
+/*===========================
+        footer
+==========================*/
+footer #footer-content {
+    padding: 5px 0;
+}
+
+.footer-line p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #333333;
+
+}
+
+footer ul.social-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+footer ul.social-list li a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #6255a5;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+
+
+
+
