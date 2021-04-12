@@ -31,7 +31,7 @@
                         $db_is_user_email_verified = $row['is_user_email_verified'];
                         $db_is_active = $row['is_active'];
                     }
-                if($db_is_active === '1' and $db_user_email_id === $email)
+                 if($db_is_active === '1' and $db_user_email_id === $email and password_verify($password, $db_user_password)){ 
                 {
                     
                     
